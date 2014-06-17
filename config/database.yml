@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: arapi_dev
+  pool: 5
+  username: railer
+  password: '1234'
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: arapi_test
+  pool: 5
+  username: railer
+  password: '1234'
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: arapi_production
+  pool: 5
+  username: railer
+  password: '1234'
